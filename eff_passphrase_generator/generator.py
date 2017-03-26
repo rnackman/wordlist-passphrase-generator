@@ -1,10 +1,6 @@
 from sys import argv
-import requests
 import random
-
-print "How long do you want your passphrase to be?"
-prompt = "Please enter a number of words: "
-passphrase_length = int(raw_input(prompt))
+import requests
 
 # Get long word list.
 r = requests.get('https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt')
@@ -43,7 +39,7 @@ def get_word(code, dictionary):
 
 def get_passphrase(length):
   dictionary = parse_txt(words_txt)
-  passcodes = get_passcodes(length, 5)
+  passcodes = get_passcodes(int(length), 5)
   passphrases = []
 
   for passcode in passcodes:
@@ -52,5 +48,9 @@ def get_passphrase(length):
   passphrase = ' '.join(passphrases)
   return passphrase
 
-print get_passphrase(passphrase_length)
+def passphrase():
+  print "How long do you want your passphrase to be?"
+  prompt = "Please enter a number of words: "
+  passphrase_length = int(raw_input(prompt))
 
+  return get_passphrase(passphrase_length)

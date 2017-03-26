@@ -1,0 +1,4 @@
+#!/usr/bin/env python
+
+import eff_passphrase_generator
+print eff_passphrase_generator.passphrase()
