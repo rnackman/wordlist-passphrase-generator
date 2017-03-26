@@ -6,12 +6,6 @@ It uses the long wordlist created by [Joseph Bonneau](https://www.eff.org/deepli
 
 **I have absolutely no affiliation with EFF. But I do think they do important work well, and I hope you will consider [donating to them](https://supporters.eff.org/donate/button).**
 
-### Next Steps
-- Allow user to select from a variety of wordlists.
-  - [Diceware](http://world.std.com/~reinhold/diceware.wordlist.asc)
-  - languages other than English
-- Allow user to enter their own wordlist URI (ahem, @lauraGgit) & detect file format.
-
 ## Installation
 ```bash
 pip install wordlist_passphrase_generator
@@ -38,3 +32,9 @@ import wordlist_passphrase_generator
   ```bash
   wordlist-passphrase-generator.get_passphrase(n)
   ```
+
+## Next Steps
+- Allow user to select from a variety of wordlists.
+  - [Diceware](http://world.std.com/~reinhold/diceware.wordlist.asc)
+  - languages other than English
+- Allow user to enter their own wordlist URI (ahem, @lauraGgit) & detect file format.
