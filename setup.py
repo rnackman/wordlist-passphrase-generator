@@ -7,6 +7,11 @@ setup(name='wordlist_passphrase_generator',
   author='Rachel Nackman',
   author_email='rachel.nackman@gmail.com',
   license='MIT',
+  classifiers=[
+    'Development Status :: 3 - Alpha',
+    'Programming Language :: Python :: 2',
+    'Topic :: Security',
+  ],
   packages=['wordlist_passphrase_generator'],
   install_requires=[
     'requests'
