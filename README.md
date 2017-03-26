@@ -1,4 +1,4 @@
-# eff-passphrase-generator
+# wordlist-passphrase-generator
 
 This is a simple passphrase generator.
 
