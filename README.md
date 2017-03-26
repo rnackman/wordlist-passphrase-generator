@@ -21,12 +21,12 @@ From package:
 import eff_passphrase_generator
 ```
 
-With prompt:
-```
-eff-passphrase-generator.passphrase()
-```
+- With prompt:
+  ```bash
+  eff-passphrase-generator.passphrase()
+  ```
 
-Without prompt, where n is the number of words:
-```
-eff-passphrase-generator.get_passphrase(n)
-```
+- Without prompt, where n is the number of words:
+  ```bash
+  eff-passphrase-generator.get_passphrase(n)
+  ```
