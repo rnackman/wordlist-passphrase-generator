@@ -4,6 +4,8 @@ This is a simple passphrase generator.
 
 It uses [Electronic Frontier Foundation](https://www.eff.org)'s long wordlist to create a passphrase according to the [dice-based guidelines provided by EFF](https://www.eff.org/dice).
 
+**I have absolutely no affiliation with EFF. But I do think they do important work well, and I hope you will consider [donating to them](https://supporters.eff.org/donate/button).**
+
 ## Installation
 ```bash
 pip install eff_passphrase_generator
