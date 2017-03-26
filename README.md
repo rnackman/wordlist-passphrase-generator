@@ -8,7 +8,9 @@ It uses the long wordlist created by [Joseph Bonneau](https://www.eff.org/deepli
 
 ### Next Steps
 - Allow user to select from a variety of wordlists.
-- Allow user to enter their own wordlist URI (ahem, @lauraGgit).
+  - [Diceware](http://world.std.com/~reinhold/diceware.wordlist.asc)
+  - languages other than English
+- Allow user to enter their own wordlist URI (ahem, @lauraGgit) & detect file format.
 
 ## Installation
 ```bash
