@@ -38,6 +38,7 @@ import wordlist_passphrase_generator
   ```
 
 ## Next Steps
+- Use [secrets](https://docs.python.org/3/library/secrets.html#module-secrets).
 - Allow user to select from a variety of wordlists.
   - [Diceware](http://world.std.com/~reinhold/diceware.wordlist.asc)
   - languages other than English
