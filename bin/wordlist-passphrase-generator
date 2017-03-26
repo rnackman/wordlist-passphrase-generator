@@ -1,0 +1,4 @@
+#!/usr/bin/env python
+
+import wordlist_passphrase_generator
+print wordlist_passphrase_generator.passphrase()

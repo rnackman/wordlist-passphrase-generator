@@ -8,27 +8,27 @@ It uses the long wordlist created by [Joseph Bonneau](https://www.eff.org/deepli
 
 ## Installation
 ```bash
-pip install eff_passphrase_generator
+pip install wordlist_passphrase_generator
 ```
 
 ## Usage
 
 From the command line:
 ```bash
-eff-passphrase-generator
+wordlist-passphrase-generator
 ```
 
 From package:
 ```bash
-import eff_passphrase_generator
+import wordlist_passphrase_generator
 ```
 
 - With prompt:
   ```bash
-  eff-passphrase-generator.passphrase()
+  wordlist-passphrase-generator.passphrase()
   ```
 
 - Without prompt, where n is the number of words:
   ```bash
-  eff-passphrase-generator.get_passphrase(n)
+  wordlist-passphrase-generator.get_passphrase(n)
   ```
